@@ -1,7 +1,8 @@
-var a;
-console.log(a);
-if (a === undefined) {
-  console.log("a is undefined");
-} else {
-  console.log("a is defined");
+function sample() {
+  console.log(a);
+  var a, b, c, d;
+  a = 123;
+  b = 123;
+  a = null;
 }
+sample();
