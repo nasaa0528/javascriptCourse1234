@@ -1,0 +1,12 @@
+var x = "12312";
+var y = 12312;
+var c = true;
+var d = {};
+console.log(typeof x);
+console.log(typeof y);
+console.log(typeof c);
+console.log(typeof d);
+console.log(typeof undefined);
+console.log(typeof null);
+console.log(typeof Symbol);
+console.log(typeof NaN);
